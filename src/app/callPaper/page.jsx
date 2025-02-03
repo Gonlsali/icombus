@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/Footer'
 
-export const ContactUs = () => {
+export const CallPaper = () => {
   return (
     <div className="bg-white">
       <Navbar />
@@ -11,4 +11,4 @@ export const ContactUs = () => {
   )
 }
 
-export default ContactUs
+export default CallPaper

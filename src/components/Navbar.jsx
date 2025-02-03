@@ -23,8 +23,8 @@ const Navbar = () => {
         <Link href="/topic" className="text-green-800 hover:text-green-900">
           List of Topics
         </Link>
-        <Link href="/contact" className="text-green-800 hover:text-green-900">
-          Contact Us
+        <Link href="/callPaper" className="text-green-800 hover:text-green-900">
+          Call for Paper
         </Link>
         <Link href="/register" className="text-green-800 hover:text-green-900">
           How to Register

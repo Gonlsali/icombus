@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Contact Information */}
         <div className="space-y-1">
-          <p className="font-bold">Contact Person:</p>
-          <p>John (+62 812 345 6789)</p>
-          <p>Email: icombus@ciputra.ac.id</p>
+          <p>Contact Person:</p>
+          <p className="font-bold">John (+62 812 345 6789)</p>
+          <p className="font-bold">Email: icombus@ciputra.ac.id</p>
         </div>
 
         {/* Hosted By Section */}
