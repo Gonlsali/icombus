@@ -16,7 +16,7 @@ const ConferenceCountdown = () => {
             30 May 2025
           </p>
           <p className="text-center font-bold text-[28px]">
-            11.00 WIB
+            09.00 WIB
           </p>
         </div>
         {/* Right Side: Countdown Timer */}

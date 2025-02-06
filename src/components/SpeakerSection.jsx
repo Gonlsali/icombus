@@ -26,7 +26,12 @@ const SpeakerSection = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Speakers</h2>
+        <h2 
+        className="text-3xl font-bold text-center mb-12"
+        style={{ color: "#365427" }}
+        >
+        Speakers
+        </h2>
         <div className="flex flex-wrap justify-center gap-8">
           {speakers.map((speaker, index) => (
             <div

@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Countdown = () => {
   const calculateTimeLeft = () => {
     // Target: May 30, 2025 at 11:00 WIB equals May 30, 2025 at 04:00 UTC (WIB is UTC+7)
-    const targetDate = new Date(Date.UTC(2025, 4, 30, 4, 0, 0));
+    const targetDate = new Date(Date.UTC(2025, 4, 30, 2, 0, 0));
     const now = new Date();
     const difference = targetDate - now;
 
