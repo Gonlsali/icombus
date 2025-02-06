@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('/fonts/MadeTommy-Regular.woff2') format('woff2'),
+       url('/fonts/MadeTommy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +25,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Made Tommy', sans-serif;
 }
