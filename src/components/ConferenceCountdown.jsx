@@ -10,12 +10,12 @@ const ConferenceCountdown = () => {
         {/* Left Side: Text */}
         <div className="text-center md:text-left">
           <h3 className="font-bold text-[48px]">
-            Conference Day
+            Conference Day:
           </h3>
-          <p className="text-center font-bold text-[28px]">
+          <p className="text-center text-[28px]">
             30 May 2025
           </p>
-          <p className="text-center font-bold text-[28px]">
+          <p className="text-center text-[28px]">
             09.00 WIB
           </p>
         </div>
