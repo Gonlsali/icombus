@@ -49,6 +49,21 @@ const Rundown = () => {
         
         {/* Bagian judul & info */}
         <div className="text-left mb-8">
+
+          <a
+            href="/Rundown_Icombus.pdf" // path file PDF di dalam folder public
+            download // attribute HTML untuk mengunduh file
+            className="
+              inline-block
+              bg-gradient-to-r from-[#345327] to-[#A3953B]
+              text-white py-2 px-6
+              rounded-lg
+              transition-colors
+              hover:opacity-90"
+          >
+            Download ICOMBUS Rundown
+          </a>
+
           {/* Logo */}
           <div className="py-4">
             <Image
@@ -66,20 +81,6 @@ const Rundown = () => {
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
           <p className="text-gray-600 font-semibold mb-4">Date: 4 April 2025</p>
-
-          <a
-            href="/Rundown_Icombus.pdf" // path file PDF di dalam folder public
-            download // attribute HTML untuk mengunduh file
-            className="
-              inline-block
-              bg-gradient-to-r from-[#345327] to-[#A3953B]
-              text-white py-2 px-6
-              rounded-lg
-              transition-colors
-              hover:opacity-90"
-          >
-            Download ICOMBUS Rundown
-          </a>
 
         </div>
 
