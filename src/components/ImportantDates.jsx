@@ -20,18 +20,13 @@ const importantDates = [
   },
 ];
 
-const ImportantDates = () => {
+export default function ImportantDates() {
   return (
     <section className="py-16 bg-gray-50 relative">
       <div className="container mx-auto px-4">
         {/* Event logo above the header */}
         <div className="flex justify-center mb-8">
-          <Image
-            src="/logo.png"
-            alt="Event Logo"
-            width={500}
-            height={200} /* Adjust the height as needed to maintain the correct aspect ratio */
-          />
+          <Image src="/logo.png" alt="Event Logo" width={500} height={200} />
         </div>
 
         {/* Header with custom color */}
@@ -41,53 +36,102 @@ const ImportantDates = () => {
         >
           IMPORTANT DATES
         </h2>
+
         <div className="relative" style={{ minHeight: "200px" }}>
-          {/* Horizontal gradient line */}
+          {/*
+            ====================================
+            BAR UNTUK DESKTOP/TABLET (>= md)
+            ====================================
+          */}
           <div
-            className="absolute left-1/2 transform -translate-x-1/2"
+            className="absolute left-1/2 transform -translate-x-1/2 hidden md:block"
             style={{
-              top: "38px", // Positions the line so its center aligns with the circles
-              width: "1200px",
+              top: "38px", // sejajar lingkaran besar (100/70)
+              width: "100%",
+              maxWidth: "1200px",
               height: "24px",
               borderRadius: "20px",
               background: "linear-gradient(to right, #214B23, #FFD449)",
             }}
           ></div>
+
+          {/*
+            ====================================
+            BAR UNTUK MOBILE (< md)
+            ====================================
+          */}
+          <div
+            className="absolute left-1/2 transform -translate-x-1/2 block md:hidden"
+            style={{
+              top: "24px", // sejajar lingkaran kecil (64/40)
+              width: "90vw",
+              maxWidth: "600px",
+              height: "16px",
+              borderRadius: "8px",
+              background: "linear-gradient(to right, #214B23, #FFD449)",
+            }}
+          ></div>
+
           {/* Timeline items */}
-          <div className="relative flex justify-between items-start">
+          <div className="relative flex justify-between items-start mt-10">
             {importantDates.map((item, index) => (
               <div
                 key={index}
                 className="flex flex-col items-center"
                 style={{ width: "25%" }}
               >
-                {/* Double circle bullet */}
-                <div style={{ position: "relative", zIndex: 10 }}>
+                {/* LINGKARAN BESAR (desktop/tablet) */}
+                <div
+                  className="hidden md:flex items-center justify-center"
+                  style={{
+                    position: "relative",
+                    zIndex: 10,
+                    width: "100px",
+                    height: "100px",
+                    backgroundColor: "#FFD449",
+                    borderRadius: "50%",
+                  }}
+                >
                   <div
                     style={{
-                      width: "100px",
-                      height: "100px",
-                      backgroundColor: "#FFD449",
+                      width: "70px",
+                      height: "70px",
+                      backgroundColor: "#214B23",
                       borderRadius: "50%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
                     }}
-                  >
-                    <div
-                      style={{
-                        width: "70px",
-                        height: "70px",
-                        backgroundColor: "#214B23",
-                        borderRadius: "50%",
-                      }}
-                    ></div>
-                  </div>
+                  ></div>
                 </div>
+
+                {/* LINGKARAN KECIL (mobile) */}
+                <div
+                  className="flex md:hidden items-center justify-center"
+                  style={{
+                    position: "relative",
+                    zIndex: 10,
+                    width: "64px",
+                    height: "64px",
+                    backgroundColor: "#FFD449",
+                    borderRadius: "50%",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      backgroundColor: "#214B23",
+                      borderRadius: "50%",
+                    }}
+                  ></div>
+                </div>
+
                 {/* Date & Description */}
                 <div className="mt-4 text-center">
-                  <p className="font-bold text-lg text-black">{item.date}</p>
-                  <p className="text-lg text-black">{item.description}</p>
+                  <p className="font-bold text-base md:text-lg text-black">
+                    {item.date}
+                  </p>
+                  <p className="text-base md:text-lg text-black">
+                    {item.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -96,6 +140,4 @@ const ImportantDates = () => {
       </div>
     </section>
   );
-};
-
-export default ImportantDates;
+}
