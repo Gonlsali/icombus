@@ -12,7 +12,9 @@ const Navbar = () => {
   const [isCallDropdownOpen, setIsCallDropdownOpen] = useState(false);
 
   // Helper untuk mengecek apakah link aktif.
-  const isActive = (href) => pathname === href;
+  const isActive = (href) =>
+    pathname === href ||
+    (pathname?.startsWith("/callPaper") && href === "/callPaper");
 
   // Link navigasi untuk halaman selain Call for Paper.
   const links = [
@@ -20,6 +22,14 @@ const Navbar = () => {
     { href: "/rundown", label: "Rundown" },
     { href: "/topic", label: "List of Topics" },
     { href: "/register", label: "How to Register" },
+  ];
+
+  // Call for Paper dropdown links
+  const callPaperLinks = [
+    { href: "/callPaper", label: "Call for Paper" },
+    { href: "/callPaper/abstractFormat", label: "Abstract Format" },
+    { href: "/callPaper/fullPaperFormat", label: "Full Paper Format" },
+    { href: "/callPaper/posterFormat", label: "Poster Format" },
   ];
 
   return (
@@ -54,34 +64,28 @@ const Navbar = () => {
 
           {/* Dropdown untuk Call for Paper */}
           <div className="relative group">
-            <button className="font-bold text-green-800 hover:text-green-900 focus:outline-none">
+            <Link
+              href="/callPaper"
+              className={
+                isActive("/callPaper")
+                  ? "font-bold text-yellow-500 hover:text-yellow-600"
+                  : "font-bold text-green-800 hover:text-green-900"
+              }
+            >
               Call for Paper
-            </button>
+            </Link>
             <div className="absolute left-0 mt-2 w-48 bg-white shadow-md rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
-              <Link
-                href="/callPaper"
-                className="block px-4 py-2 hover:bg-green-100"
-              >
-                Call for Paper
-              </Link>
-              <Link
-                href="/callPaper/abstractFormat"
-                className="block px-4 py-2 hover:bg-green-100"
-              >
-                Abstract Format
-              </Link>
-              <Link
-                href="/callPaper/fullPaperFormat"
-                className="block px-4 py-2 hover:bg-green-100"
-              >
-                Full Paper Format
-              </Link>
-              <Link
-                href="/callPaper/posterFormat"
-                className="block px-4 py-2 hover:bg-green-100"
-              >
-                Poster Format
-              </Link>
+              {callPaperLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className={`block px-4 py-2 hover:bg-green-100 ${
+                    isActive(link.href) ? "text-yellow-500" : "text-green-800"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
@@ -148,58 +152,56 @@ const Navbar = () => {
 
             {/* Dropdown untuk Call for Paper pada Mobile */}
             <div className="flex flex-col">
-              <button
-                onClick={() => setIsCallDropdownOpen(!isCallDropdownOpen)}
-                className="font-bold text-green-800 hover:text-green-900 flex justify-between items-center"
-              >
-                Call for Paper
-                <svg
-                  className={`w-4 h-4 transform transition-transform duration-200 ${
-                    isCallDropdownOpen ? "rotate-180" : "rotate-0"
-                  }`}
-                  fill="none"
-                  stroke="#365427"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div className="flex justify-between items-center">
+                <Link
+                  href="/callPaper"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={
+                    isActive("/callPaper")
+                      ? "font-bold text-yellow-500 hover:text-yellow-600"
+                      : "font-bold text-green-800 hover:text-green-900"
+                  }
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
+                  Call for Paper
+                </Link>
+                <button
+                  onClick={() => setIsCallDropdownOpen(!isCallDropdownOpen)}
+                  className="focus:outline-none"
+                >
+                  <svg
+                    className={`w-4 h-4 transform transition-transform duration-200 ${
+                      isCallDropdownOpen ? "rotate-180" : "rotate-0"
+                    }`}
+                    fill="none"
+                    stroke="#365427"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+              </div>
               {isCallDropdownOpen && (
                 <div className="pl-4 mt-2 flex flex-col space-y-2">
-                  <Link
-                    href="/callPaper"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="font-bold text-green-800 hover:text-green-900"
-                  >
-                    Call for Paper
-                  </Link>
-                  <Link
-                    href="/callPaper/abstractFormat"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="font-bold text-green-800 hover:text-green-900"
-                  >
-                    Abstract Format
-                  </Link>
-                  <Link
-                    href="/callPaper/fullPaperFormat"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="font-bold text-green-800 hover:text-green-900"
-                  >
-                    Full Paper Format
-                  </Link>
-                  <Link
-                    href="/callPaper/posterFormat"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="font-bold text-green-800 hover:text-green-900"
-                  >
-                    Poster Format
-                  </Link>
+                  {callPaperLinks.slice(1).map((link, index) => (
+                    <Link
+                      key={index}
+                      href={link.href}
+                      onClick={() => setIsMenuOpen(false)}
+                      className={
+                        isActive(link.href)
+                          ? "font-bold text-yellow-500 hover:text-yellow-600"
+                          : "font-bold text-green-800 hover:text-green-900"
+                      }
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
                 </div>
               )}
             </div>
