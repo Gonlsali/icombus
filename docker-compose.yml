@@ -8,11 +8,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=development
-    volumes:
-      - ./:/app
-      - /app/node_modules
-    command: npm run dev
+      - NODE_ENV=production
+    command: npm run start
     networks:
       - link0
 
