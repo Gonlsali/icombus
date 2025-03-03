@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   nextjs-app:
     build: .
@@ -8,12 +6,11 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-    volumes:
-      - .:/app
-      - /app/node_modules
     restart: unless-stopped
     command: ["npm", "start"]
+    networks:
+      - link0
 
 networks:
-  default:
-    driver: bridge
+  link0:
+    external: true
