@@ -2,8 +2,11 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-white p-8 text-black">
-      <div className="container mx-auto">
+    <footer className="bg-white text-black">
+      {/* Garis hijau di bagian atas */}
+      <div style={{ backgroundColor: "#1F4923", height: "4px" }} />
+
+      <div className="container mx-auto p-8">
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold">Hosted by</h2>
         </div>
@@ -33,7 +36,12 @@ const Footer = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="mt-8 bg-green-800 rounded-full py-4 px-8 text-white text-center max-w-lg mx-auto">
+        <div
+          className="mt-8 rounded-full py-4 px-8 text-white text-center max-w-lg mx-auto"
+          style={{
+            background: "linear-gradient(to right, #1F4923, #558C3F)",
+          }}
+        >
           <p className="font-medium">Contact Person:</p>
           <p className="font-bold">John (+62 812 345 6789)</p>
           <p className="font-bold">Email: icombus@gmail.com</p>

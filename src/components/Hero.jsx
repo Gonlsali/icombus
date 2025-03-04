@@ -46,9 +46,14 @@ export default function Hero() {
           <span className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-normal">
             Universitas Ciputra Surabaya
           </span>
-          <button className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]">
+          <a
+            href="https://forms.gle/uB9tQ4kUznuijfAv8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]"
+          >
             REGISTER NOW
-          </button>
+          </a>
         </div>
       </div>
     </header>

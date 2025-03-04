@@ -38,16 +38,14 @@ const SpeakerSection = () => {
           Speakers
         </h2>
 
-        {/* Ganti wrapper flex menjadi grid dengan 4 kolom */}
-        <div className="grid grid-cols-4 gap-8 justify-items-center">
+        {/* Grid responsive */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
           {speakers.map((speaker, index) => (
             <div
               key={index}
-              className="rounded-lg shadow-lg overflow-hidden"
+              className="rounded-lg shadow-lg overflow-hidden w-full max-w-xs"
               style={{
                 background: "linear-gradient(to bottom, #558C3F, #1F4923)",
-                width: "290px",
-                height: "560px",
               }}
             >
               {/* Image Section */}

@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
-    // Target: May 30, 2025 at 11:00 WIB equals May 30, 2025 at 04:00 UTC (WIB is UTC+7)
+    // Target: May 30, 2025 at 11:00 WIB equals May 30, 2025 at 04:00 UTC (WIB adalah UTC+7)
     const targetDate = new Date(Date.UTC(2025, 4, 30, 2, 0, 0));
     const now = new Date();
     const difference = targetDate - now;
@@ -32,34 +32,50 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="flex justify-center space-x-6">
+    <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-12">
       {/* Days */}
       <div className="text-center">
-        <div className="font-bold text-[96px]" style={{ color: "#FFD449" }}>
+        <div
+          className="font-bold text-4xl md:text-[96px]"
+          style={{ color: "#FFD449" }}
+        >
           {timeLeft.days}
         </div>
-        <div className="text-white">Days</div>
+        <div className="text-white text-lg md:text-xl mt-2 md:mt-4">Days</div>
       </div>
       {/* Hours */}
       <div className="text-center">
-        <div className="font-bold text-[96px]" style={{ color: "#FFD449" }}>
+        <div
+          className="font-bold text-4xl md:text-[96px]"
+          style={{ color: "#FFD449" }}
+        >
           {timeLeft.hours}
         </div>
-        <div className="text-white">Hours</div>
+        <div className="text-white text-lg md:text-xl mt-2 md:mt-4">Hours</div>
       </div>
       {/* Minutes */}
       <div className="text-center">
-        <div className="font-bold text-[96px]" style={{ color: "#FFD449" }}>
+        <div
+          className="font-bold text-4xl md:text-[96px]"
+          style={{ color: "#FFD449" }}
+        >
           {timeLeft.minutes}
         </div>
-        <div className="text-white">Minutes</div>
+        <div className="text-white text-lg md:text-xl mt-2 md:mt-4">
+          Minutes
+        </div>
       </div>
       {/* Seconds */}
       <div className="text-center">
-        <div className="font-bold text-[96px]" style={{ color: "#FFD449" }}>
+        <div
+          className="font-bold text-4xl md:text-[96px]"
+          style={{ color: "#FFD449" }}
+        >
           {timeLeft.seconds}
         </div>
-        <div className="text-white">Seconds</div>
+        <div className="text-white text-lg md:text-xl mt-2 md:mt-4">
+          Seconds
+        </div>
       </div>
     </div>
   );
