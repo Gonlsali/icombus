@@ -28,4 +28,4 @@ EXPOSE 3000
 ENV NODE_ENV production
 
 # Perintah untuk menjalankan aplikasi dalam mode production
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
