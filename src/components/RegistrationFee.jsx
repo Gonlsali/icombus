@@ -101,7 +101,7 @@ export default function RegistrationFee() {
                   </div>
                   <div className="bg-white p-3 md:p-4 text-center">
                     <p className="text-lg md:text-xl font-bold text-black">
-                      USD 25
+                      USD 30
                     </p>
                   </div>
                 </div>
