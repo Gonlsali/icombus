@@ -13,15 +13,6 @@ export default function RegistrationFee() {
           className="object-contain drop-shadow-2xl transform -rotate-12"
         />
       </div>
-      <div className="absolute top-80 right-0 h-full">
-        <Image
-          src="/images/asset2.png"
-          alt="Double hexagon design element"
-          width={350}
-          height={350}
-          className="object-contain drop-shadow-2xl"
-        />
-      </div>
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Judul Section */}
