@@ -1,39 +1,31 @@
-## Dockerfile
-# Menggunakan Node.js sebagai base image
+# Stage 1: Build
 FROM node:18-alpine AS builder
-
-# Set working directory
 WORKDIR /app
-
-# Copy package.json dan package-lock.json
+# Salin file package.json dan package-lock.json (jika ada)
 COPY package*.json ./
-
 # Install dependencies
 RUN npm install
-
-# Copy seluruh project
+# Salin seluruh kode aplikasi
 COPY . .
-
-# Build Next.js
+# Build aplikasi Next.js
 RUN npm run build
 
-# Stage untuk production
-FROM node:18-alpine AS runner
-
-# Set working directory
+# Stage 2: Production
+FROM node:18-alpine
 WORKDIR /app
-
-# Copy hanya file yang diperlukan untuk runtime
+# Salin file package.json untuk memastikan dependensi yang diperlukan tersedia
 COPY --from=builder /app/package*.json ./
+# Salin folder node_modules yang telah diinstall di stage builder
+COPY --from=builder /app/node_modules ./node_modules
+# Salin hasil build Next.js dan folder public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/src ./src
-COPY --from=builder /app/next.config.js ./next.config.js
-COPY --from=builder /app/server.js ./server.js
 
-# Expose port yang digunakan oleh Next.js
+# Ekspos port yang digunakan aplikasi
 EXPOSE 3000
 
-# Jalankan aplikasi
-CMD ["npm", "start"]
+# Set environment ke production
+ENV NODE_ENV production
+
+# Perintah untuk menjalankan aplikasi dalam mode production
+CMD ["npm", "run", "start"]
