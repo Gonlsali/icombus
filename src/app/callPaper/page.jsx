@@ -109,7 +109,7 @@ export const CallPaper = () => {
           <section className="mb-8">
             <ul className="list-disc ml-6 mb-4">
               <li>
-                Please submit your papers via the{" "}
+                Please submit your abstract papers via the{" "}
                 <a
                   href="https://forms.gle/Jown4xr3Lp2wbTNM9 "
                   className="text-blue-600 underline"
