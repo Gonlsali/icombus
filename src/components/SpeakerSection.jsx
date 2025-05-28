@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const speakers = [
   {
-    name: "Prof. Dennis Cheek, BA, BS, MA, PhD, PhD, FRSA, AAAS.",
+    name: "Prof. Dennis Cheek, BA, BS, MA, PhD, PhD, FRSA, AAAS Fellow",
     title:
       "Dean, School of Entrepreneurship & Humanities Universitas Ciputra Surabaya",
     image: "/speaker1.jpg",
   },
   {
-    name: "Prof. Harry Patria",
+    name: "Dr. Harry Patria",
     title:
       "PhD Researcher at Hunter Centre for Entrepreneurship, Strategy and Innovation, Strathclyde Business School, UK",
     image: "/speaker2.jpeg",
@@ -23,7 +23,7 @@ const speakers = [
   {
     name: "Dr. Nor’ain Abdullah",
     title: "Management and Science University (MSU), Malaysia",
-    image: "/speaker4.jpg",
+    image: "/speaker4_revisi.jpg",
   },
 ];
 
