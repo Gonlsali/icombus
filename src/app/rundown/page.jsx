@@ -113,14 +113,19 @@ const borData = [
       },
       {
         title:
-          "THE EFFECT OF LIQUIDITY, ACTIVITY RATIO, AND LEVERAGE ON FINANCIAL DISTRESS IN TEXTILE AND GARMENT SUB-SECTOR COMPANIES LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023",
-        name: "Fresilla Oktaviani. Cabvo Warsono",
-      }, // [cite: 2]
+          "The Influence of Financial Literacy and Overconfidence on Investment Decisions with Risk Tolerance as a Mediating Variable (A Study on StockInvestors in Bali Province)",
+        name: "Kadek Dewi Sawitri",
+      },
       {
         title:
-          "Empowering Small Enterprises with Scalable Web Solutions A Framework Integrating Responsive Design, SQL Analytics, Al Personalization, and Cloud Hosting",
-        name: "Felicia Sword",
-      }, // [cite: 2]
+          "The Influence of Investment Motivation, Risk Perception, and Financial Efficacy on People's Investment Decisions in The Capital Market",
+        name: "Alhidayatullah, S.M., M.M.",
+      },
+      {
+        title:
+          "THE EFFECT OF GOOD CORPORATE GOVERNANCE AND INTELLECTUAL CAPITAL ON COMPANY VALUE (In Index 100 companies listed on the Indonesia Stock Exchange for the 2019-2023 period)",
+        name: "Wahyu Setiyono",
+      },
     ],
   },
   // BOR 2
@@ -131,48 +136,82 @@ const borData = [
         title:
           "THE IMPACT OF ENVIRONMENTAL, SOCIAL, GOVERNANCE (ESG) SCORE AND SELF-ASSESSMENT GCG ON FINANCIAL PERFORMANCE WITH CREDIT RISK AS A MODERATING VARIABLE IN BANKING COMPANIES LISTED ON THE INDONESIA STOCK EXCHANGE FOR THE PERIOD 2019-2023",
         name: "Nurul Khopipah",
-      }, // [cite: 2]
-      {
-        title:
-          "ANALYSIS OF ABNORMAL RETURN AND TRADING VOLUME ACTIVITY BEFORE AND AFTER THE IMPLEMENTATION OF POJK NUMBER 48 OF DECEMBER 2020",
-        name: "NI WAYAN TRISNA PURNAMA DEWI",
-      }, // [cite: 2]
+      },
       {
         title:
           "THE EFFECT OF BUSINESS RISK, CASH TURNOVER, AND WORKING CAPITAL TURNOVER ON LIQUIDITY MODERATED BY SALES GROWTH (IN MANUFACTURING COMPANIES IN THE CONSUMER GOODS SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023)",
-        name: "Nurfitriani Dewi Yulianti",
-      }, // [cite: 2]
+        name: "Rizkiah Nurfitriani",
+      },
       {
         title:
-          "The Effect of Fraud Triangle to Fraud Academictrough Artificial Intelligence",
-        name: "Adelia Kurnia Syahrani",
-      }, // [cite: 2]
+          "THE EFFECT OF SUSTAINABILITY REPORT AND FINANCIAL PERFORMANCE ON COMPANY VALUE WITH INVESTMENT OPPORTUNITY SET (IOS) AS A MODERATING VARIABLE",
+        name: "Kartika Dewi Yulianti",
+      },
+      {
+        title:
+          "THE EFFECT OF INSTITUTIONAL OWNERSHIP, MANAGERIAL OWNERSHIP AND INDEPENDENT BOARD OF COMMISSIONERS ON TAX AVOIDANCE IN COMPANIES IN THE BASIC MATERIALS SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023",
+        name: "Syashi Kirana Alfiyyah",
+      },
+      {
+        title:
+          "The Effect of Financial Distress, Leverage, and Profit Management on Tax Agressiveness in Energy Sector Companies Listed on the Indonesia Stock Exchange (IDX) in 2019-2023",
+        name: "Rahma Ayu Utami",
+      },
+      {
+        title:
+          "Financial Distress Analysis Using a Comparison of the Altman Model, Springate Model, Zmijewski Model, and Grover Model in the Energy Sector Listed on the IDX for the 2019-2023 Period",
+        name: "Risma Rahayu",
+      },
+      {
+        title:
+          "FROM FRUGALITY TO INVESTMENT: THE ROLE OF FINANCIAL SELF-EFFICACY IN SHAPING INVESTMENT DECISION",
+        name: "Kezia Callista Odelyn Sinugroho",
+      },
     ],
   },
-  // BOR 3
   {
     room: 3,
     presenters: [
       {
         title:
-          "The Influence of Social Media Utilization in Health Awareness Campaigns and Its Impact on Scaling Social Movements: A Case Study of Libur ibur Lari Community",
+          "The Influence of Social Media Utilization in Health Awareness Campaigns and Its Impact on Scaling Social Movements : A Case Study of Ubur Ubur Lari Community",
         name: "Jessica Kristianti Dharsana",
-      }, // [cite: 2]
+      },
       {
         title:
-          "The Influence of Financial Literacy and Overconfidence on Investment Decisions with Risk Tolerance as a Mediating Variable (A Study on StockInvestors in Bali Province)",
-        name: "Kadek Dewi Sawitri",
-      }, // [cite: 2]
+          "Empowering Small Enterprises with Scalable Web Solutions: A Framework Integrating Responsive Design, SQL Analytics, AI Personalization, and Cloud Hosting",
+        name: "Felicia Sword",
+      },
       {
         title:
-          "THE EFFECT OF SUSTAINABILITY REPORT AND FINANCIAL PERFORMANCE ON COMPANY VALUE WITH INVESTMENT OPPORTUNITY SET (IOS) AS A MODERATING VARIABLE",
-        name: "Syashi Kirana Ayn Rahayu",
-      }, // [cite: 2]
+          "The Effect of Fraud Triangle to Fraud Academictrough Artificial Intelligence",
+        name: "Adelia Kurnia Syahrani",
+      },
       {
         title:
           "Risk Management in Financial Technology: A SystematicLiterature Review",
         name: "Fiqrah Maulani",
-      }, // [cite: 2]
+      },
+      {
+        title:
+          "Pricing Effect to Dual Sales Channel Preference Using Central Composite Logistic Regression",
+        name: "Januardi Januardi",
+      },
+      {
+        title:
+          "The Influence of Digital Marketing Whatsapp and Digital Payment System on Customer Satisfaction (at the Nur Cloth Shope)",
+        name: "Arobi Haikal",
+      },
+      {
+        title:
+          "The Effect Of Perceived Ease of Use And Perceived Usefulness On Reuse Intention With E-Satisfaction As A Mediation Variable",
+        name: "Komang Ayu Trishantika Dewi",
+      },
+      {
+        title:
+          "Analyzing The Impact Of AI-Based Digital Transformation and E-Marketing on The Sustainability and Competitiveness of MSMEs in South Sulawesi",
+        name: "Michele Jenny Mahakena",
+      },
     ],
   },
   // BOR 4
@@ -181,44 +220,44 @@ const borData = [
     presenters: [
       {
         title:
-          "The Influence of Intellectual Capital, Profitability, and inflation on Stock Prices of Oil and Gas Industry Companies Listed on the Indonesia Stock Exchange (IDX) for the Period 2019-2023",
-        name: "Yulia Sisca Amanda",
-      }, // [cite: 2]
-      {
-        title:
-          "THE EFFECT OF INSTITUTIONAL OWNERSHIP, MANAGERIAL OWNERSHIP AND INDEPENDENT BOARD OF COMMISSIONERS ON TAX AVOIDANCE IN COMPANIES IN THE BASIC MATERIALS SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023",
-        name: "Kezia Callista Odelyn Sinugroho",
-      }, // [cite: 2]
-      {
-        title:
-          "Pricing Effect to Dual Sales Channel Preference Using Central Composite Logistic Regression",
-        name: "Januardi Januardi",
-      }, // [cite: 2]
-      {
-        title:
-          "Assessing the Sustainability Gap in Microfinance: A Review Based on PNM's Sustainability Report",
+          "Assessing the Sustainability Gap in Microfinance: A Review Based on PNM’s Sustainability Report",
         name: "Amalia Dwi Asih",
-      }, // [cite: 2]
+      },
       {
         title:
           "Sustainable Supply Chain Practices and Business Performance of Culinary MSME's in West Java",
         name: "Tribowo Rachmat Fauzan",
-      }, // [cite: 2]
+      },
       {
         title:
           "Evaluating ESG-Driven Strategies for Business Sustainability in the EV Sector: A Content Analysis Approach",
         name: "Fransiska Mulyani, S.T., M.M.",
-      }, // [cite: 2]
+      },
       {
         title:
           "THE ROLE OF CUSTOMER SATISFACTION AND ENGAGEMENT MEDIATES THE INFLUENCE OF CUSTOMER EXPERIENCE ON REPURCHASE INTENTION",
         name: "Nyoman Candra Tri Wahyuni",
-      }, // [cite: 2]
+      },
       {
         title:
-          "The Influence of Organizational Culture, Training, and Career Development on Employee Performance at PT. Kurabo Manunggal Textile (KUMATEX)",
-        name: "Adila Balqis Maudyna",
-      }, // [cite: 2]
+          "THE EFFECT OF BRAND IMAGE AND PRODUCT QUALITY ON CONSUMER LOYALTY TOWARDS UNIQLO BRAND AT LIPPO KARAWACI SUPERMALL TANGERANG",
+        name: "Ananta Amelia Putri",
+      },
+      {
+        title:
+          "THE INFLUENCE OF FEAR OF MISSING OUT (FOMO) AND TIKTOK SOCIAL MEDIA MARKETING ON IMPULSIVE BUYING OF ADIDAS SAMBA PRODUCTS AMONG STUDENTS OF THE UNIVERSITY OF MUHAMMADIYAH TANGERANG",
+        name: "Dini",
+      },
+      {
+        title:
+          "Improving the Quality of Service of Perumda Tirta Pakuan, Bogor City: Quantitative Analysis Using Descriptive Statistics",
+        name: "Ananda Tory Diandra",
+      },
+      {
+        title:
+          "EVALUATION OF COLD CHAIN AWARENESS AND TECHNOLOGY ADOPTION IN MULTI INDUSTRY: A DESCRIPTIVE ANALYSIS",
+        name: "Imam Jaelani",
+      },
     ],
   },
   // BOR 5
@@ -227,44 +266,44 @@ const borData = [
     presenters: [
       {
         title:
-          "The Influence of Investment Motivation, Risk Perception, and Financial Efficacy on People's Investment Decisions in The Capital Market",
-        name: "Alhidayatullah, S.M., M.M.",
-      }, // [cite: 2]
-      {
-        title:
-          "The Effect of Financial Distress, Leverage, and Profit Management on Tax Agressiveness in Energy Sector Companies Listed on the Indonesia Stock Exchange (IDX) in 2019-2023",
-        name: "Rizkiah Kartika Alfiyyah",
-      }, // [cite: 2]
-      {
-        title:
-          "The Influence of Digital Marketing Whatsapp and Digital Payment System on Customer Satisfaction (at the Nur Cloth Shope)",
-        name: "Arobi Haikal",
-      }, // [cite: 2]
-      {
-        title:
           "Understanding Job Satisfaction Among International Part-Time Student Workers in Taiwan: Insights from Self-Determination Theory",
         name: "I Gede Artha Wibawa",
-      }, // [cite: 2]
+      },
       {
         title:
           "THE EFFECT OF SOFT SKILLS, EDUCATION LEVEL AND WORK EXPERIENCE ON EMPLOYEE PRODUCTIVITY OF PT ANUGERAH PELITA SEJAHTERA",
         name: "Siti Salsabilla Azzahra",
-      }, // [cite: 2]
+      },
       {
         title:
-          "THE EFFECT OF DIVIDEND POLICY AND CAPITAL POLICY ON COMPANY VALUE WITH PROFITABILITY ASA MODERATING VARIABLE IN THE FOOD AND BEVERAGE SUB-SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE (IDX) 2019-2023 PERIOD",
+          "THE EFFECT OF DIVIDEND POLICY AND CAPITAL POLICY ON COMPANY VALUE WITH PROFITABILITY AS A MODERATING VARIABLE IN THE FOOD AND BEVERAGE SUB-SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE (IDX) 2019-2023 PERIOD",
         name: "Ajeng Lutfiah Pratiwi",
-      }, // [cite: 2]
+      },
       {
         title:
-          "THE EFFECT OF BRAND IMAGE AND PRODUCT QUALITY ON CONSUMER LOYALTY TOWARDS UNIQLO BRAND AT LIPPO KARAWACI SUPERMALL TANGERANG",
-        name: "Ananta Amelis Putri",
-      }, // [cite: 2]
+          "The Influence of Organizational Culture, Training, and Career Development on Employee Performance at PT. Kurabo Manunggal Textile (KUMATEX)",
+        name: "Adila Balqis Maudyna",
+      },
       {
         title:
           "The Influence Of Job Satisfaction, Work Environment And Career Development On Employee Performance At PT. Kurabo Manunggal Textile (KUMATEX)",
         name: "Fitria Awalia",
-      }, // [cite: 2]
+      },
+      {
+        title:
+          "THE INFLUENCE OF WORK ENVIRONMENT, INDIVIDUALCHARACTERISTICS, AND WORK CULTURE ON EMPLOYEEPERFORMANCE AT PT. INDONESIA TOYOBO FILM SOLUTIONS",
+        name: "Dwi Ambarwati",
+      },
+      {
+        title:
+          "THE EFFECT OF REWARD AND PUNISHMENT SYSTEMS ON EMPLOYEE PERFORMANCE AT PT. ABADI BENUA CEMERLANG",
+        name: "Siti Nurul Aenun Nisa",
+      },
+      {
+        title:
+          "The Influence of Work Quality, Work Supervision and Work Environment on Employee Productivity at PT Premink Abadi Indonesia",
+        name: "Sinta Nurfadilah",
+      },
     ],
   },
   // BOR 6
@@ -273,44 +312,44 @@ const borData = [
     presenters: [
       {
         title:
-          "THE ROLE OF THE BOARD AND ARL: EMPIRICAL EVIDENCE IN THE PROPERTY, REAL ESTATE, BUILDING SECTOR IN INDONESIA",
-        name: "Muhammad Ilham Fauzan",
-      }, // [cite: 2]
-      {
-        title:
-          "Financial Distress Analysis Using a Comparison of the Altman Model, Springate Model, Zmijewski Model, and Grover Model in the Energy Sector Listed on the IDX for the 2019-2023 Period",
-        name: "Rahma Utami",
-      }, // [cite: 2]
-      {
-        title:
-          "The Effect Of Perceived Ease of Use And Perceived Usefulness On Reuse Intention With E-Satisfaction As A Mediation Variable",
-        name: "Komang Ayu Trishantika Dewi",
-      }, // [cite: 2]
-      {
-        title:
           "PERAN INSTITUTIONAL OWNERSHIP PADA HUMAN CAPITAL DAN STRUCTURAL CAPITAL EFFICIENCY DALAM MENINGKATKAN NILAI PERUSAHAAN",
         name: "Bryan Poaler",
-      }, // [cite: 2]
+      },
       {
         title:
           "Balancing Exploration and Exploitation: The Impact of Ambidextrous Leadership on Innovative Work Behavior in State-Owned Oil and Gas Enterprises",
         name: "Eizel Mauldy Muhammad",
-      }, // [cite: 2]
+      },
       {
         title:
-          "ORGANIZATIONAL CULTURE ASA SUPPORTING FACTOR FOR THE QUALITY OF HUMAN RESOURCES",
+          "ORGANIZATIONAL CULTURE AS A SUPPORTING FACTOR FOR THE QUALITY OF HUMAN RESOURCES",
         name: "Farida Frihartini",
-      }, // [cite: 2]
+      },
       {
         title:
           "KNOWLEDGE MANAGEMENT AS A CATALYST FOR ORGANIZATIONAL PERFORMANCE (Empirical Study on Private Universities in the Pantura Region of West Java)",
         name: "Rita Sri Silvia Pamuji",
-      }, // [cite: 2]
+      },
       {
         title:
-          "EXPLORING THE LINK BETWEEN ENTREPRENEURIAL LEADERSHIP AND INNOVATION SUCCESS: EVIDENCE FROM SMALLAND MEDIUM ENTERPRISES",
+          "EXPLORING THE LINK BETWEEN ENTREPRENEURIAL LEADERSHIP AND INNOVATION SUCCESS: EVIDENCE FROM SMALL AND MEDIUM ENTERPRISES",
         name: "Iqbal Ramadhani Fuadiputra",
-      }, // [cite: 2]
+      },
+      {
+        title:
+          "The Influence of Trend, Brand Image, Co-Branding, and Product Design on Buying Interest of Uniqlo Products",
+        name: "Gregorius Yoga Kurniadi",
+      },
+      {
+        title:
+          "Purchasing Decisions in Generation Z: The Role of Green Advertising, Green Packaging, and Green Price",
+        name: "Ivena Gloria Sahetapy",
+      },
+      {
+        title:
+          "The Influence of Experiential Marketing, Product Innovation, Brand Image, and Emotional Branding on Customer Loyalty of McDonald’s",
+        name: "Agnes Anggarawati",
+      },
     ],
   },
   // BOR 7
@@ -319,74 +358,39 @@ const borData = [
     presenters: [
       {
         title:
-          "THE EFFECT OF GOOD CORPORATE GOVERNANCE AND INTELLECTUAL CAPITAL ON COMPANY VALUE (In Index 100 companies listed on the Indonesia Stock Exchange for the 2019-2023 period)",
-        name: "Wahyu Setiyono",
-      }, // [cite: 2]
-      {
-        title:
-          "FROM FRUGALITY TO INVESTMENT THE ROLE OF FINANCIAL SELF-EFFICACY IN SHAPING INVESTMENT DECISION",
-        name: "Risma",
-      }, // [cite: 2]
-      {
-        title:
-          "Analyzing The Impact Of Al-Based Digital Transformation and E-Marketing on The Sustainability and Competitiveness of MSMEs in South Sulawesi",
-        name: "Michele Jenny Mahakena",
-      }, // [cite: 2]
-      {
-        title:
-          "THE INFLUENCE OF FEAR OF MISSING OUT (FOMO) AND TIKTOK SOCIAL MEDIA MARKETING ON IMPULSIVE BUYING OF ADIDAS SAMBA PRODUCTS AMONG STUDENTS OF THE UNIVERSITY OF MUHAMMADIYAH TANGERANG",
-        name: "Dini",
-      }, // [cite: 3]
-      {
-        title:
-          "Improving the Quality of Service of Perumda Tirta Pakuan, Bogor City: Quantitative Analysis Using Descriptive Statistics",
-        name: "Ananda Tory Diandra.",
-      }, // [cite: 4]
-      {
-        title:
-          "THE EFFECT OF REWARD AND PUNISHMENT SYSTEMS ON EMPLOYEE PERFORMANCE AT PT. ABADI BENUA CEMERLANG",
-        name: "Siti Nurul Acnun Nisa",
-      }, // [cite: 5, 6]
-      {
-        title:
           "ANALYSIS OF THE EFFECTIVENESS OF BISKITA TRANS PAKUAN ADVERTISING ON INSTAGRAM SOCIAL MEDIA",
         name: "Siti Hani Aminah",
-      }, // [cite: 7]
+      },
       {
         title:
-          "Local Herbal Tea Product Promotion Strategy: Case Study In Tajurhalang Village",
+          "Local Herbal Tea Product Promotion Strategy : Case Study In Tajurhalang Village",
         name: "Yunita Aulia Putri",
-      }, // [cite: 7]
+      },
       {
         title:
           "Investigating Factors Influencing Green Purchase Intention: The Moderating Role of Green Brand Knowledge",
         name: "Bernadette Carla Gita Apriani",
-      }, // [cite: 7]
+      },
       {
         title:
           "The Power of Green: How Marketing Mix Shapes Brand Loyalty at The Body Shop Indonesia",
         name: "Desak Gde Pravina Dianthi",
-      }, // [cite: 7]
+      },
       {
         title:
           "A Systematic Literature Review On FactorsInfluencing Repurchase Intention Of Organic Food In Bali",
         name: "Made Wara Sastra Harta",
-      }, // [cite: 7]
+      },
       {
         title:
           "The Role of Brand Love in Mediating the Influence of Brand Experience and Brand Satisfaction on Brand Loyalty",
-        name: "Ni Putu Avu Supriati",
-      }, // [cite: 7]
-      {
-        title:
-          "Exploring the Impact of Fear of Missing Out on Compulsive Buying: The Moderating Role of Materialism",
-        name: "Frifalia Fresinta",
-      }, // [cite: 7]
+        name: "Ni Putu Ayu Supriati",
+      },
       {
         title:
           "THE EFFECT OF BRAND IMAGE AND PRODUCT QUALITY ON THE PURCHASE DECISION OF MAYBELLINE MASCARA COSMETICS (Case Study on Students of the Faculty of Economics and Business, Muhammadiyah University of Tangerang)",
         name: "Ayu Nur Jamilah",
-      }, // [cite: 7]
+      },
     ],
   },
   // BOR 8
@@ -395,74 +399,44 @@ const borData = [
     presenters: [
       {
         title:
-          "THE INFLUENCE OF WORK ENVIRONMENT INDIVIDUALCHARACTERISTICS, AND WORK CULTURE ON EMPLOYEEPERFORMANCE AT PT. INDONESIA TOYOBO FILM SOLUTIONS",
-        name: "Dwi Ambarwati",
-      }, // [cite: 3, 4]
-      {
-        title:
-          "EVALUATION OF COLD CHAIN AWARENESS AND TECHNOLOGY ADOPTION IN MULTI INDUSTRY.A DESCRIPTIVE ANALYSIS",
-        name: "Imam Jaelani",
-      }, // [cite: 4]
-      {
-        title:
-          "The Influence of Work Quality, Work Supervision and Work Environment on Employee Productivity at PT Premink Abadi Indonesia",
-        name: "Sinta Nurfadilah",
-      }, // [cite: 6]
-      {
-        title:
-          "THE EFFECT OF SERVICE QUALITY AND PRODUCT INNOVATION ON PURCHASING DECISIONS (Case Study at Es Teh Indonesia Banjar Wijava Tangerang City Outlet)",
+          "THE EFFECT OF SERVICE QUALITY AND PRODUCT INNOVATION ON PURCHASING DECISIONS (Case Study at Es Teh Indonesia Banjar Wijaya Tangerang City Outlet)",
         name: "Putri Fia Apriani",
-      }, // [cite: 8]
+      },
       {
         title:
-          "The Influence of Brand Ambassador, Brand Image, and Product Quality on Purchasing Decisions of Whitelah Skincare Products",
+          "The Influence of Brand Ambassador, Brand Image, and Product Quality on Purchasing Decisions of Whitelab Skincare Products",
         name: "Elen Angelica",
-      }, // [cite: 8]
+      },
       {
         title:
           "THE INFLUENCE OF CONTENT MARKETING AND BRAND AUTHENTICITY ON CONTINUOUS PURCHASE INTENTION ON PRODUCTS FACETOLOGY ON THE TIKTOK APPLICATION IN TANGERANG CITY",
         name: "Nurul Fatimah",
-      }, // [cite: 8]
+      },
       {
         title:
           "The Role of Customer Attitudes in The Relationship of Green Product and Green Awareness Toward Purchase Intention In Surabaya",
         name: "Jesselyn Beatrice Hartanto",
-      }, // [cite: 8]
+      },
       {
         title:
-          "Strategic Approaches to Boost Offline Performancesin the Perfumery Industry (A Case Study of Nifty Twice)",
+          "Strategic Approaches to Boost Offline Performancesin the Perfumery Industry (A Case Study of NiftyTwice)",
         name: "Syifa Nafiah",
-      }, // [cite: 8]
+      },
       {
         title:
           "Supply Chain Development Strategy to Improve Street Vendor Competitiveness",
         name: "Resa Angraeni",
-      }, // [cite: 8]
+      },
       {
         title:
           "APPLICATION OF SWOT ANALYSIS AND BLUE OCEAN STRATEGY TO CREATE NEW MARKET SPACE FOR PINTAR STARTUP",
         name: "Naufal Hanif Arsalan",
-      }, // [cite: 8]
+      },
       {
         title:
-          "Transformation of Management Policy and StrategicCommunication Merdeka Belajar (Emancipated Learning): An Evaluation Study of Branding and Social Media in Public Sector",
+          "Transformation of Management Policy and Strategic Communication Merdeka Belajar (EmancipatedLearning): An Evaluation Study of Branding and Social Media in Public Sector",
         name: "Anantasha Titisania Rimadewi",
-      }, // [cite: 8, 9]
-      {
-        title:
-          "The Influence of Trend, Brand Image. Co-Branding. and Product Design on Buying Interest of Uniqlo Products",
-        name: "Gregorius Yoga Kurniadi",
-      }, // [cite: 10]
-      {
-        title:
-          "Purchasing Decisions in Generation Z: The Role of Green Advertising, Green Packaging, and Green Price",
-        name: "Ivena Gloria Sahetapy",
-      }, // [cite: 10]
-      {
-        title:
-          "The Influence of Experiential Marketing, Product Innovation, Brand Image, and Emotional Branding on Customer Loyalty of McDonald's",
-        name: "Agnes Anggarawati",
-      }, // [cite: 10]
+      },
     ],
   },
   // BOR 9
@@ -473,32 +447,32 @@ const borData = [
         title:
           "THE EFFECT OF PROFITABILITY AND CASH GROWTH ON COMPANY VALUE MEDIATED BY DIVIDEND POLICY (Empirical Studi On Energy Sector Companies Listed On The IDX in 2019-2024)",
         name: "Nia Wenty Agustin",
-      }, // [cite: 10]
+      },
       {
         title:
           "The influence of world oil prices, world gold prices, inflation, exchange rates and interest rates on the composite stock price index for the period 2014-2023",
         name: "Adelia Amanda Putri",
-      }, // [cite: 10]
+      },
       {
         title:
           "THE INFLUENCE OF INTELLECTUAL CAPITAL AND GOOD CORPORATE GOVERNANCE ON MANUFACTURING COMPANIES IN THE CONSUMER GOODS SUBSECTOR LISTED ON THE INDONESIA STOCK EXCHANGE FOR THE PERIOD 2019-2023",
         name: "Feni Fitriastuti",
-      }, // [cite: 10, 11]
+      },
       {
         title:
           "Comparative Evaluation of Portofolio Performance: A Study of Cryptocurrency andStock (Study Case Bitwise10 Crypto Index and LQ45 Index)",
         name: "Heru Fachrezie",
-      }, // [cite: 10]
+      },
       {
         title:
           "Sustainable Tourism As A Catalyst For Achieving Sdgs In Indonesia",
         name: "Dicky Satria Ramadhan",
-      }, // [cite: 10]
+      },
       {
         title:
           "The Use of Digital Technology in Micro Business Operations: A Conceptual Study on Utilizing Simple Financial Applications",
         name: "Dave Christian Tjora",
-      }, // [cite: 10]
+      },
     ],
   },
 ];
@@ -570,6 +544,13 @@ const Rundown = () => {
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
           <p className="text-gray-600 font-semibold mb-4">Date: 30 May 2025</p>
+          <p className="text-black font-semibold mb-4">
+            Meeting ID: 942 2919 3940
+          </p>
+          <p className="text-black font-semibold mb-4">Passcode: 249193</p>
+          <p className="text-gray-600 font-semibold mb-4">
+            Please use name: “full name_institution”
+          </p>
         </div>
 
         {/* Tabel rundown utama */}
@@ -621,6 +602,17 @@ const Rundown = () => {
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
           <p className="text-gray-600 font-semibold mb-4">Date: 30 May 2025</p>
+          <p className="text-black font-semibold mb-4">
+            Meeting ID: 942 2919 3940
+          </p>
+          <p className="text-black font-semibold mb-4">Passcode: 249193</p>
+          <p className="text-gray-600 font-semibold mb-4">
+            Please use name: “full name_institution”
+          </p>
+          <p className="text-gray-600 font-semibold font-style: italic mb-4">
+            The Host will assign you to the breakout room
+          </p>
+
           {/* Breakout Room Rules Section */}
           <div className="mb-8 p-4 border border-gray-300 rounded-lg bg-gray-50">
             <h2 className="text-xl font-semibold text-[#3f673b] mb-3">
